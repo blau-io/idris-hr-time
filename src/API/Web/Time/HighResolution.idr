@@ -23,5 +23,6 @@ module API.Web.Time.HighResolution
 |||
 ||| The original specification can be found at
 ||| https://w3c.github.io/hr-time/#dom-domhighrestimestamp
-data DOMHighResTimeStamp = Double
+DOMHighResTimeStamp : Type
+DOMHighResTimeStamp = Double
 
