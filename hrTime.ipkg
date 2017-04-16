@@ -1,0 +1,15 @@
+package hrTime
+
+brief      = "An Idris library for high resolution time"
+version    = 0.1.0
+readme     = README.md
+license    = Apache-2.0
+author     = Pierre Beaucamp
+maintainer = The blau.io contributors
+homepage   = https://github.com/blau-io/idris-hr-time
+sourceloc  = https://github.com/blau-io/idris-hr-time.git
+bugtracker = https://github.com/blau-io/idris-hr-time/issues
+
+sourcedir = src
+
+modules = API.Web.Time.HighResolution
